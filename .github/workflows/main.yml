@@ -1,4 +1,4 @@
-name: java ch
+name: build
 
 on:
   workflow_dispatch: 
@@ -45,5 +45,5 @@ jobs:
          with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: /home/runner/work/Shoply/Shoply/app/build/outputs/apk/release/app-release.apk
-          asset_name: ludere.apk
+          asset_name: example.apk
           asset_content_type: application/apk
