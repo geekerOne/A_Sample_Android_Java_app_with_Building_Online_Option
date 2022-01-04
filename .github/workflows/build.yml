@@ -35,6 +35,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: /home/runner/work/Shoply/Shoply/app/build/outputs/apk/release/app-release.apk
+          asset_path: /home/runner/work/A_Sample_Android_Java_app_with_Building_Online_Option/A_Sample_Android_Java_app_with_Building_Online_Option/app/build/outputs/apk/release/app-release.apk
           asset_name: example.apk
           asset_content_type: application/apk
