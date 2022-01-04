@@ -3,9 +3,9 @@ package com.example.test;
 import android.os.Bundle;
 import android.content.Context;
 import android.widget.Toast;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
