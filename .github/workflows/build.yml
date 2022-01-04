@@ -24,8 +24,8 @@ jobs:
          env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
-          tag_name: ludere-${{ steps.date.outputs.date }}
-          release_name: Ludere ${{ steps.date.outputs.date }}
+          tag_name: example-${{ steps.date.outputs.date }}
+          release_name: example ${{ steps.date.outputs.date }}
        - name: get apk name
          run: find /home/runner/work/ -name "*.apk"
        - name: Upload Release Asset
