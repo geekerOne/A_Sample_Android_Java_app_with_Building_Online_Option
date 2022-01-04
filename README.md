@@ -40,3 +40,4 @@ after adding your files and codes and modifying (watch tuturial video for more d
 6:build را انتخاب کنید
 
 7:بعد از تمام شدن build میتوانید از قسمت رهانش ها برنامه ی خود را دانلود کنید
+
