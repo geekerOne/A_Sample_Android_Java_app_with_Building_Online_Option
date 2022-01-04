@@ -3,6 +3,7 @@ package com.example.test;
 import android.os.Bundle;
 import android.content.Context;
 import android.widget.Toast;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
