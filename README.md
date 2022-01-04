@@ -27,7 +27,7 @@ after adding your files and codes and modifying (watch tuturial video for more d
 بعد از شخصی سازی کد و اضافه کردن فایل ها و کدهای مورد نیازتان به پروژه
 (میتوانید برای جزییات بیشتر ویدیوی آموزشی را نگاه کنید)
 
-1:به قسمت action بروید
+گام اول:به قسمت action بروید
 
 2:build را انتخاب کنید
 
