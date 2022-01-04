@@ -4,12 +4,19 @@ A Sample Android Java app with Building online option,this project helps you to 
 you can write test or even debug your code
 
 after adding your files and codes and modifying (watch tuturial video for more details)
+
 1:go to action
+
 2:select build (under workflow)
+
 3:run workflow
+
 4:run workflow
+
 5:refresh the page
+
 6:select build
+
 7:when buliding is done you can go to releases and download your app
 
 
@@ -21,5 +28,15 @@ after adding your files and codes and modifying (watch tuturial video for more d
 (میتوانید برای جزییات بیشتر ویدیوی آموزشی را نگاه کنید)
 
 1:به قسمت action بروید
+
 2:build را انتخاب کنید
 
+3:run workflow را انتخاب کنید
+
+4:run workflow را انتخاب کنید
+
+5:صفحه ی مرورگر را تازه سازی کنید
+
+6:build را انتخاب کنید
+
+7:بعد از تمام شدن build میتوانید از قسمت رهانش ها برنامه ی خود را دانلود کنید
