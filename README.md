@@ -35,7 +35,7 @@ after adding your files and codes and modifying (watch tuturial video for more d
 
 گام چهارم:run workflow را انتخاب کنید
 
-گام پنجک:صفحه ی مرورگر را تازه سازی کنید
+گام پنجم:صفحه ی مرورگر را تازه سازی کنید
 
 گام ششم:build را انتخاب کنید
 
