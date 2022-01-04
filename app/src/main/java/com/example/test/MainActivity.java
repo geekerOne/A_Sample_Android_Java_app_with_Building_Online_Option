@@ -1,45 +1,20 @@
-package com.hosamazzam.apps.shoply;
+package com.example.test;
 
 import android.os.Bundle;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-
-import com.hosamazzam.apps.shoply.Fragments.HomeFragment;
-import com.hosamazzam.apps.shoply.Tools.SlideNavigation;
+import android.content.Context;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    ActionBarDrawerToggle actionBarDrawerToggle;
-    DrawerLayout drawerLayout;
-    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        drawerLayout = findViewById(R.id.drawer_layout);
-
-        actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar,
-                R.string.drawer_open, R.string.drawer_close);
-
-        drawerLayout.addDrawerListener(actionBarDrawerToggle);
-
-        getSupportFragmentManager()
-                .beginTransaction()
-                .add(R.id.main_fragment_container, new HomeFragment(), "HomeFragment")
-                .commit();
-
-        SlideNavigation slideNavigation = new SlideNavigation(R.id.main_fragment_container);
-        slideNavigation.initSlideMenu(MainActivity.this, getSupportFragmentManager(), drawerLayout);
+        Toast toastMessage;//for showing message
+        toastMessage = Toast.makeText(MainActivity.this, "Hello World!",
+        Toast.LENGTH_LONG);
+        toastMessage.show();
+        
     }
 
-    @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
-        actionBarDrawerToggle.syncState();
-    }
 }
