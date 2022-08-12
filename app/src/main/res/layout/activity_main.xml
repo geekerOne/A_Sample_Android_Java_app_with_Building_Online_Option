@@ -118,11 +118,11 @@
 
 	
 	<RelativeLayout            
-            android:layout_width="fill_parent"
-            android:layout_height="35dip"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
             android:background="@drawable/background_border"
-	    android:layout_toLeftOf="@id/start_the_game_button" 		
-	     android:layout_below="@+id/send_email">
+	    android:layout_toLeftOf="@id/send_email" 	
+	    android:layout_alignParentTop="true">
 		
 		
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
