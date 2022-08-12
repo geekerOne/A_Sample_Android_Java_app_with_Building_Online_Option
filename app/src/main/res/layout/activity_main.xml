@@ -159,8 +159,8 @@
             android:id="@+id/close_camera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
+	    android:layout_alignParentBottom="true"		
+            android:layout_toLeftOf="@id/wide_camera"	
 	    android:text="دوربین معمولی"
 	    android:onClick="close_camera_func"/>
 		
