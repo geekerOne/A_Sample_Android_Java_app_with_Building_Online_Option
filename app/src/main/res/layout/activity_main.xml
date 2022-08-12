@@ -133,6 +133,15 @@
             android:layout_toRightOf="@id/optimized_quality"
 	    android:text="کیفیت عالی"
 	    android:onClick="high_quality_func"/>
+		
+	<Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mid_quality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/high_quality"		
+            android:layout_toRightOf="@id/optimized_quality"
+	    android:text="کیفیت متوسط"
+	    android:onClick="mid_quality_func"/>
 
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/optimized_quality"
