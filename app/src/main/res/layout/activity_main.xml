@@ -140,7 +140,7 @@
             android:layout_below="@id/text_of_box"
 	    android:text="کیفیت عالی"
 	    android:background="@drawable/selectortwo"	
- 	    android:paddingRight="8dp"
+ 	    android:layout_marginRight="8dp"
 	    android:onClick="high_quality_func"/>
 		
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
@@ -161,7 +161,7 @@
             android:layout_below="@id/text_of_box"
 	    android:text="اجرای بهینه"
 	    android:background="@drawable/selectortwo"
- 	    android:paddingLeft="8dp"	
+ 	    android:layout_marginLeft="8dp"	
 	    android:onClick="optimized_quality_func"/>
 
 
