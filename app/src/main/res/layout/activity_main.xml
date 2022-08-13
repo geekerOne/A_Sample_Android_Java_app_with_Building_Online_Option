@@ -131,7 +131,7 @@
      android:layout_alignParentTop="true"       
      android:layout_centerHorizontal="true"   
      android:textColor="@color/Skyblue"      
-     android:text="تنظیمات بازی" />
+     android:text="تنظیمات اجرا" />
 		
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/high_quality"
@@ -139,7 +139,7 @@
             android:layout_height="36dp"
 	    android:text="کیفیت عالی"
 	    android:background="@drawable/selectortwo"	
- 	    android:layout_marginLeft="2dp"
+ 	    android:layout_marginLeft="4dp"
 	    android:layout_marginTop="45dp"
 	    android:onClick="high_quality_func"/>
 		
@@ -150,7 +150,8 @@
             android:layout_below="@id/high_quality"		
             android:layout_alignParentLeft="true"
 	    android:text="کیفیت متوسط"
-	    android:layout_marginTop="5dp"		
+	    android:layout_marginTop="5dp"	
+ 	    android:layout_marginLeft="4dp"
 	    android:background="@drawable/selectortwo"
 	    android:onClick="mid_quality_func"/>
 
@@ -161,7 +162,7 @@
             android:layout_alignParentRight="true"
 	    android:text="اجرای بهینه"
 	    android:background="@drawable/selectortwo"
- 	    android:layout_marginRight="2dp"	
+ 	    android:layout_marginRight="4dp"	
 	    android:layout_marginTop="45dp"	
 	    android:onClick="optimized_quality_func"/>
 
@@ -175,7 +176,7 @@
             android:layout_alignParentRight="true"
 	    android:text="دوربین ps5"
 	    android:background="@drawable/selectortwo"
- 	    android:layout_marginRight="2dp"	
+ 	    android:layout_marginRight="4dp"	
             android:layout_marginBottom="5dp"	
 	    android:onClick="wide_camera_func"/>
 
@@ -186,7 +187,7 @@
 	    android:layout_alignParentBottom="true"		
             android:layout_alignParentLeft="true"
 	    android:text="دوربین معمولی"
-            android:layout_marginRight="2dp"	
+            android:layout_marginLeft="4dp"	
             android:layout_marginBottom="5dp"				
 	    android:background="@drawable/selectortwo"
 	    android:onClick="close_camera_func"/>
