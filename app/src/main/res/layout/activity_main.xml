@@ -138,8 +138,8 @@
             android:layout_height="36dp"
 	    android:text="کیفیت عالی"
 	    android:background="@drawable/selectortwo"	
- 	    android:paddingRight="15dp"
-	    android:paddingTop="40dp"
+ 	    android:layout_marginRight="15dp"
+	    android:layout_marginTop="40dp"
 	    android:onClick="high_quality_func"/>
 		
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
