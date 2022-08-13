@@ -134,7 +134,7 @@
 		
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/high_quality"
-            android:layout_width="95dp"
+            android:layout_width="90dp"
             android:layout_height="36dp"
             android:layout_alignParentLeft="true"
             android:layout_below="@id/text_of_box"
@@ -144,7 +144,7 @@
 		
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/mid_quality"
-            android:layout_width="95dp"
+            android:layout_width="90dp"
             android:layout_height="36dp"
             android:layout_below="@id/high_quality"		
             android:layout_alignParentLeft="true"
@@ -154,7 +154,7 @@
 
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/optimized_quality"
-            android:layout_width="95dp"
+            android:layout_width="90dp"
             android:layout_height="36dp"
             android:layout_alignParentRight="true"
             android:layout_below="@id/text_of_box"
@@ -166,7 +166,7 @@
 
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/wide_camera"
-            android:layout_width="95dp"
+            android:layout_width="90dp"
             android:layout_height="36dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
@@ -176,7 +176,7 @@
 
         	<Button xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/close_camera"
-            android:layout_width="95dp"
+            android:layout_width="90dp"
             android:layout_height="36dp"
 	    android:layout_alignParentBottom="true"		
             android:layout_alignParentLeft="true"
