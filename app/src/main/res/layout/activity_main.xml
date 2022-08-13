@@ -150,7 +150,6 @@
             android:layout_alignParentLeft="true"
 	    android:text="کیفیت متوسط"
 	    android:background="@drawable/selectortwo"
-	    android:background="@drawable/selectortwo"
 	    android:onClick="mid_quality_func"/>
 
 	<Button xmlns:android="http://schemas.android.com/apk/res/android"
